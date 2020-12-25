@@ -31,7 +31,7 @@ monopoly_with_third_tier = {
 # monopoly_with_third_tier[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
 
 if monopoly_with_third_tier[:railroads][:names]
-  monopoly_with_third_tier[:railroad][:names] = {
+  monopoly_with_third_tier[:railroads][:names] = {
     :reading_railroad => {},
     :pennsylvania_railroad => {},
     :b_and_o_railroad => {}
