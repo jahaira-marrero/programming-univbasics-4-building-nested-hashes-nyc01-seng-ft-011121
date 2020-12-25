@@ -60,5 +60,6 @@ monopoly_with_fourth_tier = {
     }
   }
 }
+if monopoly_with_fourth_tier[:railroads][:names]
 end
 
