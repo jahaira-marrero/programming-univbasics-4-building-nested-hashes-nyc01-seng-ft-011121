@@ -34,7 +34,8 @@ if monopoly_with_third_tier[:railroads][:names]
   monopoly_with_third_tier[:railroads][:names] = {
     :reading_railroad => {},
     :pennsylvania_railroad => {},
-    :b_and_o_railroad => {}
+    :b_and_o_railroad => {},
+    :shortline_railroad => {}
 }
 
 end
