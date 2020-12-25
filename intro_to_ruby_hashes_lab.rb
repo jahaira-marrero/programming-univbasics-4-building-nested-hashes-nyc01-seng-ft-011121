@@ -30,14 +30,14 @@ monopoly_with_third_tier[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
 monopoly_with_third_tier[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
 monopoly_with_third_tier[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
 
-# if monopoly_with_third_tier[:railroads][:names]
-#   monopoly_with_third_tier[:railroad][:names] = {
-#     :reading_railroad => {},
-#     :pennsylvania_railroad => {},
-#     :b_and_o_railroad => {}
-# }
+if monopoly_with_third_tier[:railroads][:names]
+  monopoly_with_third_tier[:railroad][:names] = {
+    :reading_railroad => {},
+    :pennsylvania_railroad => {},
+    :b_and_o_railroad => {}
+}
 
-# end
+end
 end
 monopoly_with_third_tier
 end
