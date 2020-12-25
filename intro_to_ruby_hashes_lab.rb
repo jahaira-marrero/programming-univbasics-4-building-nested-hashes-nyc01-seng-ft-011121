@@ -63,6 +63,7 @@ monopoly_with_fourth_tier = {
 if monopoly_with_fourth_tier[:railroads][:names][:reading_railroad]
   monopoly_with_fourth_tier[:railroads][:names][:reading_railroad] = {
     :mortgage_value => {}
+  }
 monopoly_with_fourth_tier[:railroads][:names][:reading_railroad][:mortgage_value] = 100
 end
 monopoly_with_fourth_tier
