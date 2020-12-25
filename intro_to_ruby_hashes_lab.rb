@@ -77,6 +77,13 @@ if monopoly_with_fourth_tier[:railroads][:names][:b_and_o_railroad]
     :mortgage_value => {}
   }
 monopoly_with_fourth_tier[:railroads][:names][:b_and_o_railroad][:mortgage_value] = 400
+
+if monopoly_with_fourth_tier[:railroads][:names][:shortline_railroad]
+  monopoly_with_fourth_tier[:railroads][:names][:shortline_railroad] = {
+    :mortgage_value => {}
+  }
+monopoly_with_fourth_tier[:railroads][:names][:shortline_railroad][:mortgage_value] = 800
+end
 end
 end
 end
